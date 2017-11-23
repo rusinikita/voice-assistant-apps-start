@@ -1,0 +1,93 @@
+{
+  "id": "449b2c0e-bc5a-4390-9bb6-2f0f35b79efc",
+  "name": "get_beer - on_taps - filter - accept_order",
+  "auto": true,
+  "contexts": [
+    "get_beer-on_taps-filter-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "get_beer.on_taps.filter.accept_order",
+      "affectedContexts": [
+        {
+          "name": "get_beer-on_taps-filter-followup",
+          "parameters": {},
+          "lifespan": 2
+        },
+        {
+          "name": "get_beer-on_taps-filter-order-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "fbb39de1-1b64-4ffc-b7f7-5e70e5284951",
+          "required": false,
+          "dataType": "@beer-brand",
+          "name": "drink_brand",
+          "value": "$drink_brand",
+          "prompts": [],
+          "defaultValue": "",
+          "isList": false
+        },
+        {
+          "id": "8188b55e-a9c2-49ae-8dc5-e11914442715",
+          "required": false,
+          "dataType": "@sys.ordinal",
+          "name": "drink_ordinal",
+          "value": "$drink_ordinal",
+          "prompts": [],
+          "defaultValue": "1",
+          "isList": false
+        },
+        {
+          "id": "44cf51a6-d33b-4b9d-9fb2-169ac202fa38",
+          "required": true,
+          "dataType": "@sys.unit-volume",
+          "name": "drink_liters",
+          "value": "$drink_liters",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "How many?"
+            },
+            {
+              "lang": "en",
+              "value": "How many of $drink_brand beer do you want?"
+            },
+            {
+              "lang": "en",
+              "value": "How much?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "58950bdd-25d5-448d-9b2a-e7beb9b5e78a",
+          "required": false,
+          "dataType": "@snack-count",
+          "name": "snacks",
+          "value": "$snacks",
+          "isList": true
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1509530096456,
+  "fallbackIntent": false,
+  "events": []
+}

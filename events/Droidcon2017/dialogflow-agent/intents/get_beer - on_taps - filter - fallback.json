@@ -1,0 +1,37 @@
+{
+  "id": "95ed5513-9e0e-4e3d-8f8e-b501ad03cc3d",
+  "name": "get_beer - on_taps - filter - fallback",
+  "auto": false,
+  "contexts": [
+    "get_beer-on_taps-filter-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "get_beer.on_taps.filter.fallback",
+      "affectedContexts": [
+        {
+          "name": "get_beer-on_taps-filter-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Say me what beer do you want, for example dark or light."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1509530311557,
+  "fallbackIntent": true,
+  "events": []
+}

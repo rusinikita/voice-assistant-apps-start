@@ -1,0 +1,32 @@
+[
+  {
+    "value": "@drink-taste:drink-taste",
+    "synonyms": [
+      "@drink-taste:drink-taste"
+    ]
+  },
+  {
+    "value": "@sys.color:color",
+    "synonyms": [
+      "@sys.color:color"
+    ]
+  },
+  {
+    "value": "@beer-filtering:beer-filtering ",
+    "synonyms": [
+      "@beer-filtering:beer-filtering "
+    ]
+  },
+  {
+    "value": "@beer-color:beer-color",
+    "synonyms": [
+      "@beer-color:beer-color"
+    ]
+  },
+  {
+    "value": "@drink-alcoholicity:drink-alcoholicity",
+    "synonyms": [
+      "@drink-alcoholicity:drink-alcoholicity"
+    ]
+  }
+]

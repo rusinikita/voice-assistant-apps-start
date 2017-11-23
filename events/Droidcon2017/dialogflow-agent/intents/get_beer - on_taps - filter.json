@@ -1,0 +1,63 @@
+{
+  "id": "48d6fd21-3616-4e68-b0e6-52cfc15a4229",
+  "name": "get_beer - on_taps - filter",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "get_beer.on_taps.filter",
+      "affectedContexts": [
+        {
+          "name": "get_beer-on_taps-filter-followup",
+          "parameters": {},
+          "lifespan": 2
+        },
+        {
+          "name": "get_beer-on_taps-filter-followup-2",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "e231d755-9d7d-42fc-9d14-fe03de6f420b",
+          "required": true,
+          "dataType": "@drink-property",
+          "name": "beer_properties",
+          "value": "$beer_properties",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What beer do you want, light or dark or else?"
+            }
+          ],
+          "isList": true
+        },
+        {
+          "id": "9556e498-69b6-4756-8038-299a5e98a87a",
+          "required": false,
+          "dataType": "@alcoholics",
+          "name": "alcoholics",
+          "value": "$alcoholics",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Oh, you want $beer_properties.original? We haven\u0027t so beer."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 750000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1509479627470,
+  "fallbackIntent": false,
+  "events": []
+}

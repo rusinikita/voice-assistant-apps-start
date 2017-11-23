@@ -1,0 +1,29 @@
+{
+  "id": "e609bbe0-d603-4b57-817c-64144ecc3c41",
+  "name": "app - fallback",
+  "auto": false,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "get_beer.on_taps.fallback",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Ask me about beer on taps."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1509350798,
+  "fallbackIntent": true,
+  "events": []
+}

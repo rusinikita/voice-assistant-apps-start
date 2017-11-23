@@ -1,0 +1,14 @@
+[
+  {
+    "value": "alcoholic",
+    "synonyms": [
+      "алкогольное"
+    ]
+  },
+  {
+    "value": "not_alcoholic",
+    "synonyms": [
+      "не алкогольное"
+    ]
+  }
+]

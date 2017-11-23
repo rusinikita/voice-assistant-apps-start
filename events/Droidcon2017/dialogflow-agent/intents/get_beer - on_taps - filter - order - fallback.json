@@ -1,0 +1,53 @@
+{
+  "id": "a27b8ce3-339c-4880-afad-c6547848aabd",
+  "name": "get_beer - on_taps - filter - order - fallback",
+  "auto": false,
+  "contexts": [
+    "get_beer-on_taps-filter-order-followup",
+    "get_beer-on_taps-filter-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "get_beer.on_taps.filter.accept_order.fallback",
+      "affectedContexts": [
+        {
+          "name": "get_beer-on_taps-filter-order-followup",
+          "parameters": {},
+          "lifespan": 2
+        },
+        {
+          "name": "get_beer-on_taps-filter-followup",
+          "parameters": {},
+          "lifespan": 2
+        },
+        {
+          "name": "beer_info",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Harry up and answer on my question."
+        },
+        {
+          "type": 0,
+          "lang": "ru",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1510089916190,
+  "fallbackIntent": true,
+  "events": []
+}

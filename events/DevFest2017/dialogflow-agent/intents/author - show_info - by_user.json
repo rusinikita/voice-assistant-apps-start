@@ -1,0 +1,71 @@
+{
+  "id": "65745161-8826-4352-96c8-aa115335dd79",
+  "name": "author - show_info - by_user",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "author.show_info",
+      "affectedContexts": [
+        {
+          "name": "author-show_info",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "dadb4840-6da3-4d60-b85f-87686b541d63",
+          "name": "book",
+          "value": "DEFAULT",
+          "isList": false
+        },
+        {
+          "id": "43af35a4-183b-4cd7-913f-abee66525107",
+          "required": true,
+          "dataType": "@sys.given-name",
+          "name": "author_name",
+          "value": "$author_name.original",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Let me know about author name"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "525249c1-5256-49b0-8f51-e6f2f21aee6e",
+          "required": false,
+          "dataType": "@sys.last-name",
+          "name": "author_last_name",
+          "value": "$author_last_name.original",
+          "isList": false
+        },
+        {
+          "id": "777aae06-abb8-4cdb-a02a-f6d3ef0e16e3",
+          "dataType": "@profession",
+          "name": "profession",
+          "value": "$profession",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "I don\u0027t know about $author_name"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1507583411,
+  "fallbackIntent": false,
+  "events": []
+}

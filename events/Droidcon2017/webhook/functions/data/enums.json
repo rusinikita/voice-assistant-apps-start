@@ -1,0 +1,50 @@
+{
+  "BEER_COLOR": [
+    {
+      "code": "light",
+      "name": "light"
+    },
+    {
+      "code": "dark",
+      "name": "dark"
+    }
+  ],
+  "BEER_FILTERING": [
+    {
+      "code": "filtered",
+      "name": "filtered"
+    },
+    {
+      "code": "not_filtered",
+      "name": "not filtered"
+    }
+  ],
+  "DRINK_ALCOHOLICITY": [
+    {
+      "code": "alcoholic",
+      "name": "alcoholic"
+    },
+    {
+      "code": "not_alcoholic",
+      "name": "not alcoholic"
+    }
+  ],
+  "DRINK_TASTE": [
+    {
+      "code": "spicy",
+      "name": "spicy"
+    },
+    {
+      "code": "sweet",
+      "name": "sweet"
+    },
+    {
+      "code": "heavy",
+      "name": "heavy"
+    },
+    {
+      "code": "undefined",
+      "name": ""
+    }
+  ]
+}

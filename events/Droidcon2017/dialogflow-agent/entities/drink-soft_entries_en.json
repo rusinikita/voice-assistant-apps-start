@@ -1,0 +1,20 @@
+[
+  {
+    "value": "lemonade",
+    "synonyms": [
+      "lemonade"
+    ]
+  },
+  {
+    "value": "soda",
+    "synonyms": [
+      "soda"
+    ]
+  },
+  {
+    "value": "juice",
+    "synonyms": [
+      "juice"
+    ]
+  }
+]

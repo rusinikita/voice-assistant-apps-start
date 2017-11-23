@@ -1,0 +1,14 @@
+[
+  {
+    "value": "not_filtered",
+    "synonyms": [
+      "not_filtered"
+    ]
+  },
+  {
+    "value": "filtered",
+    "synonyms": [
+      "filtered"
+    ]
+  }
+]

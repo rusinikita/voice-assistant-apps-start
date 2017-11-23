@@ -1,0 +1,234 @@
+[
+  {
+    "id": "a274229f-a5bd-4882-b772-7a5cbb685c44",
+    "data": [
+      {
+        "text": " Hey I want ",
+        "userDefined": false
+      },
+      {
+        "text": "Baltic",
+        "alias": "drink_brand",
+        "meta": "@beer-brand",
+        "userDefined": false
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "text": "7 liters",
+        "alias": "drink_liters",
+        "meta": "@sys.unit-volume",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1
+  },
+  {
+    "id": "05178ebb-a7c7-4f31-8d7f-0bd463a7be59",
+    "data": [
+      {
+        "text": "Fill me ",
+        "userDefined": false
+      },
+      {
+        "text": "2 liters",
+        "alias": "drink_liters",
+        "meta": "@sys.unit-volume",
+        "userDefined": false
+      },
+      {
+        "text": " of ",
+        "userDefined": false
+      },
+      {
+        "text": "Hentai",
+        "alias": "drink_brand",
+        "meta": "@beer-brand",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "92d26c35-2f53-409f-946d-f08eb8fdf14e",
+    "data": [
+      {
+        "text": "Give me ",
+        "userDefined": false
+      },
+      {
+        "text": "Hentai",
+        "alias": "drink_brand",
+        "meta": "@beer-brand",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "beer",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1
+  },
+  {
+    "id": "cb360769-f50f-4418-8a7d-064b7b3adbca",
+    "data": [
+      {
+        "text": "Give me ",
+        "userDefined": false
+      },
+      {
+        "text": "Hentai",
+        "alias": "drink_brand",
+        "meta": "@beer-brand",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "a91336f8-3cea-4b0a-8090-8bd07b376b4b",
+    "data": [
+      {
+        "text": "Give me ",
+        "userDefined": false
+      },
+      {
+        "text": "2 liters",
+        "alias": "drink_liters",
+        "meta": "@sys.unit-volume",
+        "userDefined": false
+      },
+      {
+        "text": " of ",
+        "userDefined": false
+      },
+      {
+        "text": "American Dream",
+        "alias": "drink_brand",
+        "meta": "@beer-brand",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1509432793
+  },
+  {
+    "id": "1f76abfd-6a52-432f-9ef1-ae615ae54cac",
+    "data": [
+      {
+        "text": "I want ",
+        "userDefined": false
+      },
+      {
+        "text": "beer",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "8f192609-e8a2-4c65-8a7b-e7e1dd3eb81e",
+    "data": [
+      {
+        "text": "Give me ",
+        "userDefined": false
+      },
+      {
+        "text": "beer",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "e6cf99e6-695a-4b1f-8f35-a3d6c454aeea",
+    "data": [
+      {
+        "text": "Fill me ",
+        "userDefined": false
+      },
+      {
+        "text": "beer",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "7dd86795-f2c6-405b-824b-4999ee5a4147",
+    "data": [
+      {
+        "text": "I want ",
+        "userDefined": false
+      },
+      {
+        "text": "American Dream",
+        "alias": "drink_brand",
+        "meta": "@beer-brand",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "b3830a8e-1fbe-4dc6-b358-d69055c582d5",
+    "data": [
+      {
+        "text": "Fill me ",
+        "userDefined": false
+      },
+      {
+        "text": "Hentai",
+        "alias": "drink_brand",
+        "meta": "@beer-brand",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "beer",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "109dff1e-2596-43f0-adc7-b249e565d7e8",
+    "data": [
+      {
+        "text": "I want order ",
+        "userDefined": false
+      },
+      {
+        "text": "beer",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

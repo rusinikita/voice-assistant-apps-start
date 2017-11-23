@@ -1,0 +1,35 @@
+[
+  {
+    "id": "b5449638-3d81-4217-9766-a35c8b362c97",
+    "data": [
+      {
+        "text": "Let\u0027s talk",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "9591154f-abd0-4218-a4f5-b91c7d72757f",
+    "data": [
+      {
+        "text": "give me an advice",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "2df65ef3-26f3-4f24-b0f4-32901c486ea4",
+    "data": [
+      {
+        "text": "I want to talk with you",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

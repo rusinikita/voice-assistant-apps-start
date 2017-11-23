@@ -1,0 +1,46 @@
+{
+  "description": "Voice assistant for beer shops",
+  "language": "en",
+  "activeAssistantAgents": [
+    "smalltalk-domain-on",
+    "smalltalk-fulfillment-on"
+  ],
+  "googleAssistant": {
+    "googleAssistantCompatible": true,
+    "project": "beerlogan-36168",
+    "welcomeIntentSignInRequired": false,
+    "startIntents": [],
+    "systemIntents": [],
+    "endIntentIds": [
+      "f973a757-9cde-47f3-8ea5-c3444348a134",
+      "e52fe3d9-756e-4856-855a-668f2cf49c27",
+      "a0af91e6-7b13-43a2-9c43-fd3ef139a8fc",
+      "5f100f2d-a737-4e87-8724-fc4ee9acbe1c"
+    ],
+    "oAuthLinking": {
+      "required": false,
+      "grantType": "AUTH_CODE_GRANT"
+    },
+    "voiceType": "MALE_1",
+    "capabilities": [],
+    "protocolVersion": "V2"
+  },
+  "defaultTimezone": "America/New_York",
+  "webhook": {
+    "url": "https://us-central1-beerlogan-36168.cloudfunctions.net/beerLogan",
+    "headers": {
+      "": ""
+    },
+    "available": true,
+    "useForDomains": false,
+    "cloudFunctionsEnabled": false,
+    "cloudFunctionsInitialized": false
+  },
+  "isPrivate": true,
+  "customClassifierMode": "use.after",
+  "mlMinConfidence": 0.3,
+  "supportedLanguages": [
+    "ru"
+  ],
+  "enableOnePlatformApi": false
+}

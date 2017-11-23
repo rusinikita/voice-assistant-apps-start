@@ -1,0 +1,26 @@
+[
+  {
+    "value": "beer",
+    "synonyms": [
+      "beer",
+      "ale",
+      "malt",
+      "wallop",
+      "nappy",
+      "swipes",
+      "tiff",
+      "bevvy",
+      "she oak",
+      "small drink",
+      "beor"
+    ]
+  },
+  {
+    "value": "cider",
+    "synonyms": [
+      "cider",
+      "cyder",
+      "apple wine"
+    ]
+  }
+]

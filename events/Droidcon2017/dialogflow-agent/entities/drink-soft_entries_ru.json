@@ -1,0 +1,20 @@
+[
+  {
+    "value": "lemonade",
+    "synonyms": [
+      "лимонад"
+    ]
+  },
+  {
+    "value": "soda",
+    "synonyms": [
+      "газировка"
+    ]
+  },
+  {
+    "value": "juice",
+    "synonyms": [
+      "сок"
+    ]
+  }
+]

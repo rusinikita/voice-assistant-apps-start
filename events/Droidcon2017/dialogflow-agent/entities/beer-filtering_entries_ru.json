@@ -1,0 +1,14 @@
+[
+  {
+    "value": "not_filtered",
+    "synonyms": [
+      "не фильтрованное"
+    ]
+  },
+  {
+    "value": "filtered",
+    "synonyms": [
+      "фильтрованное"
+    ]
+  }
+]

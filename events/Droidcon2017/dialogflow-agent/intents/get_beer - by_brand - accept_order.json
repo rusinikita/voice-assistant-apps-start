@@ -1,0 +1,56 @@
+{
+  "id": "a0af91e6-7b13-43a2-9c43-fd3ef139a8fc",
+  "name": "get_beer - by_brand - accept_order",
+  "auto": true,
+  "contexts": [
+    "get_beer-by_brand-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": true,
+      "action": "get_beer.by_brand.accept_order",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "66ab28a0-cd41-4769-854c-16c82a9c57d1",
+          "required": false,
+          "name": "drink_brand",
+          "value": "#beer_info.drink_brand",
+          "isList": false
+        },
+        {
+          "id": "d9aa4974-1dbe-4cad-b32f-641df1adef53",
+          "required": false,
+          "name": "drink_liters",
+          "value": "#beer_info.drink_liters",
+          "isList": false
+        },
+        {
+          "id": "8be9bbb1-3fc1-4a69-97b6-b44e1eacbf74",
+          "name": "drink_cost",
+          "value": "#beer_info.drink_cost"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "No problem, we will fill you that beer."
+        },
+        {
+          "type": 0,
+          "lang": "ru",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1510420252565,
+  "fallbackIntent": false,
+  "events": []
+}

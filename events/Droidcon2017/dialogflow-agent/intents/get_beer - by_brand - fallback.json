@@ -1,0 +1,44 @@
+{
+  "id": "ec214954-830a-4e45-b1de-7c29965b2ca1",
+  "name": "get_beer - by_brand - fallback",
+  "auto": false,
+  "contexts": [
+    "get_beer-by_brand-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "get_beer.by_brand.fallback",
+      "affectedContexts": [
+        {
+          "name": "get_beer-by_brand-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Tell me yes or not."
+        },
+        {
+          "type": 0,
+          "lang": "ru",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": false
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1510427760508,
+  "fallbackIntent": true,
+  "events": []
+}

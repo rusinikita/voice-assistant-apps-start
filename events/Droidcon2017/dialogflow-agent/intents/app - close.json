@@ -1,0 +1,28 @@
+{
+  "id": "f973a757-9cde-47f3-8ea5-c3444348a134",
+  "name": "app - close",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Oh, okey, try ask barmen about it."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1509528933677,
+  "fallbackIntent": false,
+  "events": []
+}

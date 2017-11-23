@@ -1,0 +1,59 @@
+{
+  "id": "b28226e2-be98-4571-8472-a31a3c51f916",
+  "parentId": "938df45d-362d-4107-95df-67632df3676d",
+  "rootParentId": "938df45d-362d-4107-95df-67632df3676d",
+  "name": "books - last3 - more_info - by_carousel",
+  "auto": false,
+  "contexts": [
+    "books-last3-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "books.more_info",
+      "affectedContexts": [
+        {
+          "name": "books-last3-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "006255fd-5344-48b5-bb79-9b13bf07ab2a",
+          "name": "book",
+          "value": "#books-last3-followup.book",
+          "isList": false
+        },
+        {
+          "id": "fa7ca334-09b3-4d81-80f3-1a143850f303",
+          "name": "author",
+          "value": "#books-last3-followup.author",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "$book.wrote $author author.",
+            "I don\u0027t know who wrote $book."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 750000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1507496381,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "actions_intent_OPTION"
+    }
+  ]
+}
