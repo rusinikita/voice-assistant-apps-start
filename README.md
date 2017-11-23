@@ -28,7 +28,7 @@ Links goes here
 - [How show natural representation of collected parameter](https://api.ai/docs/actions-and-parameters#original)
 - [About ask method in the DialogflowApp to collect parameters in data object](https://developers.google.com/actions/reference/nodejs/ApiAiApp#ask)
 - [How send response without DialogflowApp by hand](https://dialogflow.com/docs/getting-started/basic-fulfillment-conversation), [Response object format](https://dialogflow.com/docs/fulfillment#response), [Request object format](https://dialogflow.com/docs/fulfillment#request)
-- [About DialogFlow with Context's name](https://discuss.api.ai/t/context-specific-fallbacks/2335)
+- [About bug in the DialogFlow with Context's name](https://discuss.api.ai/t/context-specific-fallbacks/2335)
 - [How provide responses to handle all cases: with and without parameters](https://dialogflow.com/docs/intents#text_response)
 - How handle rich responses in the Dialogflow: [1](https://www.androidauthority.com/google-assistant-vs-siri-vs-bixby-vs-amazon-alexa-vs-cortana-best-virtual-assistant-showdown-796205/amp/), [2](https://developers.google.com/actions/assistant/responses#handling_selected_item)
 - [Google Assistant vs Siri vs Bixby vs Amazon Alexa vs Cortana – Best virtual assistant showdown!](https://www.androidauthority.com/google-assistant-vs-siri-vs-bixby-vs-amazon-alexa-vs-cortana-best-virtual-assistant-showdown-796205/amp/)
