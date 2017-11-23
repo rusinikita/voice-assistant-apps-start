@@ -39,11 +39,14 @@ Links goes here
 ## Events
 #### Google Assistant
 - [DevFest 2017 Kaliningrad](https://vk.com/devfest2017)
-| Video 	| [Presentation](https://drive.google.com/file/d/0B7D4a9icy4rXOHVtU0VnMk8xeDg/view?usp=sharing) 	| Materials 	| Dialogflow Agent   	| Webhook   	|
-|-------	|--------------	|------------	|-------------------	|------------	|
+
+| Video | [Presentation](https://drive.google.com/file/d/0B7D4a9icy4rXOHVtU0VnMk8xeDg/view?usp=sharing) | Materials: | Dialogflow Agent | Materials |
+|-------|--------------|------------|--------|----------|
+|       |              |            |        |          |
+|       |              |            |        |          |
+|       |              |            |        |          |
+
 - [Droidcon 2017 Kaliningrad](droidcon.moscow/)
-| Video 	| Presentation 	| Materials 	| Dialogflow Agent   	| Webhook   	|
-|-------	|--------------	|------------	|-------------------	|------------	|
 
 #### Alexa Skills
 Links goes here
