@@ -42,9 +42,6 @@ Links goes here
 
 | Video | [Presentation](https://drive.google.com/file/d/0B7D4a9icy4rXOHVtU0VnMk8xeDg/view?usp=sharing) | Materials: | Dialogflow Agent | Materials |
 |-------|--------------|------------|--------|----------|
-|       |              |            |        |          |
-|       |              |            |        |          |
-|       |              |            |        |          |
 
 - [Droidcon 2017 Kaliningrad](droidcon.moscow/)
 
