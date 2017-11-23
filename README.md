@@ -33,7 +33,7 @@ Links goes here
 - How handle rich responses in the Dialogflow: [1](https://www.androidauthority.com/google-assistant-vs-siri-vs-bixby-vs-amazon-alexa-vs-cortana-best-virtual-assistant-showdown-796205/amp/), [2](https://developers.google.com/actions/assistant/responses#handling_selected_item)
 - [Google Assistant vs Siri vs Bixby vs Amazon Alexa vs Cortana – Best virtual assistant showdown!](https://www.androidauthority.com/google-assistant-vs-siri-vs-bixby-vs-amazon-alexa-vs-cortana-best-virtual-assistant-showdown-796205/amp/)
 
-#### Alexa Skills
+#### Amazon Alexa
 Links goes here
 
 ## Communities
@@ -44,7 +44,7 @@ Links goes here
 - [Google Home Slack](http://googleslack.com/)
 - [Kaliningrad voice app developers Telegram group](https://t.me/joinchat/A5zP3EGS8tIuTC2Htl4PnQ)
 
-#### Alexa Skills
+#### Amazon Alexa
 - [Alexa Slack](http://www.alexaslack.com/)
 
 ## Events
@@ -59,5 +59,5 @@ Links goes here
 | Video | Presentation | [Dialogflow Agent](/events/Droidcon2017/dialogflow-agent) | [Webhook](/events/Droidcon2017/webhook) | Other materials |
 |-------|--------------|------------|--------|----------|
 
-#### Alexa Skills
+#### Amazon Alexa
 Links goes here
