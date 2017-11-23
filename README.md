@@ -1,5 +1,5 @@
-# Converstional Apps Home
-Place where you can find **links**, **communities** and **events** about conversational apps.
+# Conversational Apps Home
+Place where you can find **links**, **communities** and **events** about conversational (voice) apps.
 
 ## Where to start?
 #### General
