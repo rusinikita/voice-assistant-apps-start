@@ -15,6 +15,27 @@ No matter which you start, We highly recommend you to start with [ApiAi](https:/
 - [Amazon Alexa start tutorials](https://github.com/bignerdranch/developing-alexa-skills-solutions)
 - [Alexa video tutorials](https://www.youtube.com/playlist?list=PL2KJmkHeYQTO6ci5KF08mvHYdAZu2jgkJ)
 
+## Advanced Tutorials, Manuals and other stuff
+#### General
+Links goes here
+
+#### Google Assistant
+- [Docs about GoogleActions + DialogflowApp API](https://developers.google.com/actions/reference/nodejs/ApiAiApp)
+- How invoke intents from webhook (events tutorial): [1](https://api.ai/docs/events), [2](https://developers.google.com/actions/apiai/deploy-fulfillment)
+- [How deploy webhook to Firebase](https://firebase.google.com/docs/functions/get-started)
+- [Example, how request geolocation and name permission](https://stackoverflow.com/a/44854290)
+- [JSON structure of Response and Request objects](https://developers.google.com/actions/reference/rest/Shared.Types/AppRequest)
+- [How show natural representation of collected parameter](https://api.ai/docs/actions-and-parameters#original)
+- [About ask method in the DialogflowApp to collect parameters in data object](https://developers.google.com/actions/reference/nodejs/ApiAiApp#ask)
+- [How send response without DialogflowApp by hand](https://dialogflow.com/docs/getting-started/basic-fulfillment-conversation), [Response object format](https://dialogflow.com/docs/fulfillment#response), [Request object format](https://dialogflow.com/docs/fulfillment#request)
+- [About DialogFlow with Context's name](https://discuss.api.ai/t/context-specific-fallbacks/2335)
+- [How provide responses to handle all cases: with and without parameters](https://dialogflow.com/docs/intents#text_response)
+- How handle rich responses in the Dialogflow: [1](https://www.androidauthority.com/google-assistant-vs-siri-vs-bixby-vs-amazon-alexa-vs-cortana-best-virtual-assistant-showdown-796205/amp/), [2](https://developers.google.com/actions/assistant/responses#handling_selected_item)
+- [Google Assistant vs Siri vs Bixby vs Amazon Alexa vs Cortana – Best virtual assistant showdown!](https://www.androidauthority.com/google-assistant-vs-siri-vs-bixby-vs-amazon-alexa-vs-cortana-best-virtual-assistant-showdown-796205/amp/)
+
+#### Alexa Skills
+Links goes here
+
 ## Communities
 #### General
 Links goes here
@@ -25,16 +46,6 @@ Links goes here
 
 #### Alexa Skills
 - [Alexa Slack](http://www.alexaslack.com/)
-
-## Tutorials, Manuals and other stuff
-#### General
-Links goes here
-
-#### Google Assistant
-Links goes here
-
-#### Alexa Skills
-Links goes here
 
 ## Events
 #### Google Assistant
