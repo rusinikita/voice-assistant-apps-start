@@ -42,7 +42,7 @@ Links goes here
 
 #### Google Assistant
 - [Google Home Slack](http://googleslack.com/)
-- [Kaliningrad voice app developers Telegram group](https://t.me/joinchat/A5zP3EGS8tIuTC2Htl4PnQ)
+- [Russian voice app developers Telegram group](https://t.me/conversational_interfaces_ru)
 
 #### Amazon Alexa
 - [Alexa Slack](http://www.alexaslack.com/)
