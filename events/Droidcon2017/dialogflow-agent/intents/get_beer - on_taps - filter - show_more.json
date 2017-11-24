@@ -1,0 +1,53 @@
+{
+  "id": "bb5ebf48-124c-40fa-b747-b0f28e1addfd",
+  "name": "get_beer - on_taps - filter - show_more",
+  "auto": true,
+  "contexts": [
+    "get_beer-on_taps-filter-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "get_beer.on_taps.filter.pagination",
+      "affectedContexts": [
+        {
+          "name": "get_beer-on_taps-filter-more-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "bc4db18c-9aea-402c-aa91-19fd0c5905d8",
+          "required": true,
+          "dataType": "@list-direction",
+          "name": "list_direction",
+          "value": "$list_direction",
+          "prompts": [],
+          "isList": false
+        },
+        {
+          "id": "e1caf557-74aa-42e9-863d-5c6f9da5e99a",
+          "name": "page_count",
+          "value": "1",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1509530043806,
+  "fallbackIntent": false,
+  "events": []
+}

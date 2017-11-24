@@ -1,0 +1,37 @@
+{
+  "id": "e72de240-574c-4eb8-9bdc-e675719adbd1",
+  "name": "get_beer - on_taps",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "get_beer.on_taps",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "f77dc4fe-686c-426c-a4e7-8c61e6d0f45e",
+          "required": false,
+          "name": "max_properties",
+          "value": "2",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Sorry, but I don\u0027t know what a beer we have now on taps. Ask barmen to find out."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 750000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1509467090,
+  "fallbackIntent": false,
+  "events": []
+}

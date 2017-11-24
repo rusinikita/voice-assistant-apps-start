@@ -1,0 +1,256 @@
+[
+  {
+    "id": "b0999760-375e-4f34-8d26-3df631e22861",
+    "data": [
+      {
+        "text": "No problem",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "6bf94ee3-7680-47fe-b4e7-3bd751e43001",
+    "data": [
+      {
+        "text": "Give me ",
+        "userDefined": false
+      },
+      {
+        "text": "20 liters",
+        "alias": "drink_liters",
+        "meta": "@sys.unit-volume",
+        "userDefined": false
+      },
+      {
+        "text": " and ",
+        "userDefined": false
+      },
+      {
+        "text": "5 gram of shavings",
+        "alias": "snacks",
+        "meta": "@snack-count",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1
+  },
+  {
+    "id": "cbc291a3-1e33-4031-b45f-bc5c219e468b",
+    "data": [
+      {
+        "text": "Yes, ",
+        "userDefined": false
+      },
+      {
+        "text": "5 liters",
+        "alias": "drink_liters",
+        "meta": "@sys.unit-volume",
+        "userDefined": false
+      },
+      {
+        "text": " with ",
+        "userDefined": false
+      },
+      {
+        "text": "200 gram of nuts",
+        "alias": "snacks",
+        "meta": "@snack-count",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "030e1acc-f28f-437d-b240-8be4c69898a8",
+    "data": [
+      {
+        "text": "Absolutely",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "81d9019b-23b0-4daf-900f-eab0ef130ed7",
+    "data": [
+      {
+        "text": "I want ",
+        "userDefined": false
+      },
+      {
+        "text": "5 liters 500 milliliters",
+        "alias": "drink_liters",
+        "meta": "@sys.unit-volume",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "5c1fcec4-a296-4b49-b7d6-e964a35ffc85",
+    "data": [
+      {
+        "text": "Ok, I want ",
+        "userDefined": false
+      },
+      {
+        "text": "first",
+        "alias": "drink_ordinal",
+        "meta": "@sys.ordinal",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "5d7101b4-b921-445c-a28a-df325049d385",
+    "data": [
+      {
+        "text": "Ok",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "eabb5007-47c6-47f0-9a27-13a4b2086a08",
+    "data": [
+      {
+        "text": "Ok, give ",
+        "userDefined": false
+      },
+      {
+        "text": "20 liters",
+        "alias": "drink_liters",
+        "meta": "@sys.unit-volume",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1
+  },
+  {
+    "id": "2af76614-8efa-42d3-bac0-a63f0fc9cd9d",
+    "data": [
+      {
+        "text": "Yes, give me it",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "0cf6e29e-dd2f-4ea3-838c-72f98dc3f0bc",
+    "data": [
+      {
+        "text": "Yes, and ",
+        "userDefined": false
+      },
+      {
+        "text": "200 gram of nuts",
+        "alias": "snacks",
+        "meta": "@snack-count",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "8ccbf0ab-03df-4140-8385-fd46b28fb028",
+    "data": [
+      {
+        "text": "Ok, give me ",
+        "userDefined": false
+      },
+      {
+        "text": "5 liters",
+        "alias": "drink_liters",
+        "meta": "@sys.unit-volume",
+        "userDefined": false
+      },
+      {
+        "text": " of ",
+        "userDefined": false
+      },
+      {
+        "text": "American Dream",
+        "alias": "drink_brand",
+        "meta": "@beer-brand",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1
+  },
+  {
+    "id": "1181acac-dcaa-4b0e-a9e9-a5cc81c7c80b",
+    "data": [
+      {
+        "text": "Give me order",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "1318587c-8d1b-4bba-b7d0-cde17518dd0f",
+    "data": [
+      {
+        "text": "Yes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1
+  },
+  {
+    "id": "40f6f4dc-ec2e-45d1-aae9-9ccc4f45cc02",
+    "data": [
+      {
+        "text": "I want order it",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "385d5ef6-432c-4d6c-b64d-f897f55ef884",
+    "data": [
+      {
+        "text": "Ok, I want ",
+        "userDefined": false
+      },
+      {
+        "text": "American Dream",
+        "alias": "drink_brand",
+        "meta": "@beer-brand",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "cbb0032e-d09f-4cdb-9f9c-861d64aa1893",
+    "data": [
+      {
+        "text": "Ok, I want it",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

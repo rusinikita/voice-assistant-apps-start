@@ -1,0 +1,195 @@
+[
+  {
+    "id": "abc562ea-7f1d-450f-9165-f2dd72972081",
+    "data": [
+      {
+        "text": "fill me ",
+        "userDefined": false
+      },
+      {
+        "text": "dark",
+        "alias": "beer_properties",
+        "meta": "@drink-property",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "beer",
+        "alias": "alcoholics",
+        "meta": "@alcoholics",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "7b728757-8037-4951-86a7-600e10679364",
+    "data": [
+      {
+        "text": "fill me ",
+        "userDefined": false
+      },
+      {
+        "text": "dark",
+        "alias": "beer_properties",
+        "meta": "@drink-property",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "99b74cd2-b728-41f3-a476-681d6a3e4432",
+    "data": [
+      {
+        "text": "give me ",
+        "userDefined": false
+      },
+      {
+        "text": "dark",
+        "alias": "beer_properties",
+        "meta": "@drink-property",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "63ea5ff7-e2f9-46ef-8ebb-8cbf28729c54",
+    "data": [
+      {
+        "text": "I will order ",
+        "userDefined": false
+      },
+      {
+        "text": "dark",
+        "alias": "beer_properties",
+        "meta": "@drink-property",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "beer",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "f3235120-32b9-45bc-9b4b-8b8ae95a0de7",
+    "data": [
+      {
+        "text": "dark",
+        "alias": "beer_properties",
+        "meta": "@drink-property",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "beer",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1
+  },
+  {
+    "id": "409acebd-dc16-4a1c-9bd1-bcef9f3a57c9",
+    "data": [
+      {
+        "text": "I want ",
+        "userDefined": false
+      },
+      {
+        "text": "dark",
+        "alias": "beer_properties",
+        "meta": "@drink-property",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1
+  },
+  {
+    "id": "966df836-28c1-4109-8661-34fbdb5de1b5",
+    "data": [
+      {
+        "text": "Give me ",
+        "userDefined": false
+      },
+      {
+        "text": "dark",
+        "alias": "beer_properties",
+        "meta": "@drink-property",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "beer",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1
+  },
+  {
+    "id": "d4041283-7885-4354-b8af-7dc2e852f78e",
+    "data": [
+      {
+        "text": "I want ",
+        "userDefined": false
+      },
+      {
+        "text": "dark",
+        "alias": "beer_properties",
+        "meta": "@drink-property",
+        "userDefined": true
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "text": "spicy",
+        "alias": "beer_properties",
+        "meta": "@drink-property",
+        "userDefined": true
+      },
+      {
+        "text": ", and ",
+        "userDefined": false
+      },
+      {
+        "text": "sweet",
+        "alias": "beer_properties",
+        "meta": "@drink-property",
+        "userDefined": true
+      },
+      {
+        "text": " beer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1
+  }
+]

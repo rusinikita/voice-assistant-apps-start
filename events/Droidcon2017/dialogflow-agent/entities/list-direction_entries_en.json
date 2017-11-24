@@ -1,0 +1,27 @@
+[
+  {
+    "value": "next",
+    "synonyms": [
+      "more",
+      "anything else",
+      "what else",
+      "tell me more",
+      "show me more",
+      "more information",
+      "another",
+      "other",
+      "another",
+      "no"
+    ]
+  },
+  {
+    "value": "previous",
+    "synonyms": [
+      "previous",
+      "previous results",
+      "tell me previous",
+      "before  results",
+      "before"
+    ]
+  }
+]

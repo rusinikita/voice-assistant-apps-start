@@ -1,0 +1,166 @@
+{
+  "WELCOME": [
+    "Hi, I'm Logan, your virtual beer assistant. What beer do you want?",
+    "Hello, my name is Logan, I'm your beer virtual Assistant. What beer we should fill you?"
+  ],
+  "SHOW_BEER_ON_TAPS": {
+    "main": {
+      "no_tap_beer": [
+        "Sorry, but I don't know what beer we have now on taps. Ask barmen to find out."
+      ],
+      "has_tap_beer": [
+        "We have %(tap_beer_count)s taps with beer. Do you want %(beer_properties)s?",
+        "We can offer you %(tap_beer_count)s tap beer. Maybe will you order %(beer_properties)s?",
+        "We can offer you %(tap_beer_count)s tap beer. Maybe %(beer_properties)s?"
+      ]
+    },
+    "fallback": [
+      "Let's talk about beer, bro.",
+      "I want to speak about beer on taps.",
+      "We are speaking about beer, tell me what beer do you like.",
+      "We are speaking about beer, tell me what beer do you want."
+    ],
+    "filter": {
+      "no_filtered_beer": [
+        "We haven't that beer on taps, sorry. Try order other beer.",
+        "Beer like those we haven't on taps, pardon. Let's talk about other beer.",
+        "It's problem, your barmen didn't order so tap beer yet, but you can order something other."
+      ],
+      "has_filtered_beer": [
+        "Yep, we have such beer. For example %(filtered_beer_brand)s from %(filtered_beer_country)s. Do you want it?",
+        "No problem, you can order %(filtered_beer_brand)s. It is %(filtered_beer_properties)s beer and made in %(filtered_beer_country)s. Do you want it?",
+        "We have %(filtered_beer_properties)s %(filtered_beer_brand)s beer for you. Directly from %(filtered_beer_country)s. Do you want it?"
+      ],
+      "fallback": [
+        "Shit, order beer or let's bounce! Ha-ha, it's joke. Tell me a beer property, I will recommend you something.",
+        "Say me what beer do you want, for example dark or light."
+      ],
+      "accept_order": {
+        "beer_order_sum": [
+          "And your order now is %(beer_ordered_liters)s liters of %(beer_brand)s beer. Are you ok, bro?",
+          "Alright, you are ordering %(beer_ordered_liters)s liters of %(beer_brand)s beer, yes?",
+          "You said that we should fill %(beer_ordered_liters)s liters of %(beer_brand)s beer, yes?"
+        ],
+        "low_liters": [
+          "Oh, you are trying order more liters of %(beer_brand)s, than we have. We can sell you only %(beer_remained_liters)s liters. Are you okay?",
+          "Oh, we have only %(beer_remained_liters)s liters of %(beer_brand)s. What do you think?",
+          "Shit, we can sell you only %(beer_remained_liters)s liters of %(beer_brand)s. What do you think?"
+        ],
+        "agree": [
+          "Cool, you ordered beer in the mount of %(order_price)s. Go to the barmen and tell him number 12, he will serve you. See you again!",
+          "Super, your order in the mount of %(order_price)s is accepted. Go to the barmen, he will serve you by 11 number. See you!",
+          "Cool, bro! You ordered a selected beer in the mount of %(order_price)s. Go to the barmen, he will serve you by 12 number. See you again!"
+        ],
+        "fallback": [
+          "Tell me you agree or not to order %(beer_brand)s.",
+          "Are you ready to order %(beer_brand)s?",
+          "Harry up and answer on my question."
+        ]
+      },
+      "cancel_order": [
+        "Ok, as you want, jerk. Fully repeat your order to get another beer.",
+        "Repeat your order, jerk, and we will fill you another beer.",
+        "Heh, then repeat your order to get another beer."
+      ],
+      "show_more": {
+        "one_beer": [
+          "It's only one %(current_beer_properties)s beer, that we can offer you. You can agree or refuse.",
+          "Bad idea, because we haven't an another %(current_beer_properties)s beer. Let's offer or bail!",
+          "No, I can't. There is nothing better than %(current_beer_brand)s. Just order or refuse."
+        ],
+        "many_beer": [
+          "Instead of %(current_beer_brand)s we can offer you %(next_beer_properties)s %(next_beer_brand)s from %(next_beer_country)s. Are you ok?",
+          "Maybe will you order %(next_beer_properties)s %(next_beer_brand)s instead of %(current_beer_brand)s? It's beer from %(next_beer_country)s.",
+          "What about %(next_beer_properties)s %(next_beer_brand)s beer? It's boiling in %(next_beer_country)s."
+        ]
+      }
+    }
+  },
+  "SHOW_BEER_BY_BRAND": {
+    "main": {
+      "no_beer": [
+        "Sorry, but we don't sell beer now.",
+        "No, all beer was ended, sorry, and we can sell you nothing."
+      ],
+      "no_brand": [
+        "Sorry, but we haven't %(beer_brand)s beer now, but you can order other beer, let's go."
+      ],
+      "no_similar_beer": [
+        "Sorry, but we haven't alternatives for the %(beer_brand)s. Say what beer do you want instead."
+      ],
+      "similar_beer": [
+        "We haven't %(beer_brand)s beer now, but we can offer you %(alternative_beer_properties)s %(alternative_beer_brand)s. What do you think?"
+      ],
+      "low_liters": [
+        "Oh, you are trying order more liters of %(beer_brand)s, than we have. We can sell only %(beer_remained_liters)s liters. Are you okay?",
+        "Oh, we have only %(beer_remained_liters)s liters of %(beer_brand)s. What do you think?",
+        "Sorry, but we can sell you only %(beer_remained_liters)s liters of %(beer_brand)s. What do you think?"
+      ],
+      "enough_liters": [
+        "Cool, you ordered %(beer_brand)s in the mount of %(order_price)s. Go to the barmen and tell him number 12, he will serve you. See you again!",
+        "Super, your order in the mount of %(order_price)s is accepted. Go to the barmen, he will serve you by 11 number. See you!",
+        "Cool, bro! You ordered a selected beer in the mount of %(order_price)s. Go to the barmen, he will serve you by 12 number. See you again!"  
+      ]
+    },
+    "accept_order": [
+      "Cool, you ordered %(beer_brand)s in the mount of %(order_price)s. Go to the barmen and tell him number 12, he will serve you. See you again!",
+      "Super, your order in the mount of %(order_price)s is accepted. Go to the barmen, he will serve you by 11 number. See you!",
+      "Cool, bro! You ordered a selected beer in the mount of %(order_price)s. Go to the barmen, he will serve you by 12 number. See you again!"
+    ],
+    "cancel_order": [
+      "As you want, say me about other beer.",
+      "Ok, tell me what a beer do you want instead.",
+      "Ok, tell me other brand or properties of other beer."
+    ],
+    "fallback": [
+      "Tell me yes or not.",
+      "Tell me agree you or not.",
+      "Give me response on my previous answer.",
+      "Answer me about beer."
+    ]
+  },
+  "SHOW_BEER_BY_PROPERTIES": {
+    "main": {
+      "no_beer": [
+        "Sorry, but we don't sell beer now.",
+        "No, all beer was ended, sorry, and we can sell you nothing."
+      ],
+      "no_brand": [
+        "Sorry, but we haven't %(beer_properties)s beer now, but you can order other beer, let's go."
+      ],
+      "no_similar_beer": [
+        "Sorry, but we haven't alternatives for the %(beer_properties)s. Say what beer do you want instead."
+      ],
+      "similar_beer": [
+        "We haven't %(beer_properties)s beer now, but we can offer you %(alternative_beer_properties)s %(alternative_beer_brand)s. What do you think?"
+      ],
+      "low_liters": [
+        "Oh, you are trying order more liters of %(beer_properties)s beer, than we have. We can sell only %(beer_remained_liters)s liters. Are you okay?",
+        "Oh, we have only %(beer_remained_liters)s liters of %(beer_properties)s beer. What do you think?",
+        "Sorry, but we can sell you only %(beer_remained_liters)s liters of %(beer_properties)s beer. What do you think?"
+      ],
+      "enough_liters": [
+        "Fucking great! You ordered %(beer_ordered_liters)s liters of %(beer_properties)s beer. Go to the barmen, he will serve you. See you again!",
+        "Congrats! Thanks for your order! It is %(beer_ordered_liters)s liters of %(beer_properties)s beer. Bye, barmen will serve you.",
+        "No problem! We glad to fill you %(beer_ordered_liters)s liters of %(beer_properties)s beer. Ask barmen to serve you. Bye."
+      ]
+    },
+    "accept_order": [
+      "Ok, we will fill you %(beer_liters)s liters of %(beer_properties)s beer. Ask barmen about it.",
+      "No problem, we will fill you that beer.",
+      "No probem, we will fill you %(beer_properties)s beer, go to barmen.",
+      "No problem, we will fill you %(beer_properties)s beer."
+    ],
+    "cancel_order": [
+      "As you want, say me about other beer.",
+      "Ok, tell me what a beer do you want instead.",
+      "Ok, tell me other brand or properties of other beer."
+    ],
+    "fallback": [
+      "Tell me yes or not.",
+      "Tell me agree you or not.",
+      "Give me response on my previous answer.",
+      "Answer me about beer."
+    ]
+  }
+}

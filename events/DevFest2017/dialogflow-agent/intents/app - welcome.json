@@ -1,0 +1,50 @@
+{
+  "id": "4a8bc429-42da-4a9f-a83f-387fc761abb4",
+  "name": "app - welcome",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Hi! I\u0027m your assistant by books! Special for the DevFest Kaliningrad 2017.",
+            "Hello! I\u0027m DevFest 2017 demonstration assistant. I can show you books and their authors."
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "ru",
+          "speech": [
+            "Привет! Я твой ассистент по книгам. Сделана специально для калининградского DevFest 2017.",
+            "Здаровки. Я могу помочь тебе найти книги и их авторов."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1507469712,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    },
+    {
+      "name": "GOOGLE_ASSISTANT_WELCOME"
+    },
+    {
+      "name": "TELEGRAM_WELCOME"
+    }
+  ]
+}

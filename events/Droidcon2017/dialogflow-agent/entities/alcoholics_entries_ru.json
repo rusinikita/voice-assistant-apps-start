@@ -1,0 +1,14 @@
+[
+  {
+    "value": "beer",
+    "synonyms": [
+      "пиво"
+    ]
+  },
+  {
+    "value": "cider",
+    "synonyms": [
+      "сидр"
+    ]
+  }
+]

@@ -1,0 +1,33 @@
+{
+  "id": "9cd976c5-2bc5-426f-8b12-7590c2c362d8",
+  "parentId": "938df45d-362d-4107-95df-67632df3676d",
+  "rootParentId": "938df45d-362d-4107-95df-67632df3676d",
+  "name": "books - last3 - fallback",
+  "auto": false,
+  "contexts": [
+    "books-last3-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "You can ask me to show info about book by name."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1507475170,
+  "fallbackIntent": true,
+  "events": []
+}

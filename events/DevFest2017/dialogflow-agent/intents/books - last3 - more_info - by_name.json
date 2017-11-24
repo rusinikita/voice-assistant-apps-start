@@ -1,0 +1,55 @@
+{
+  "id": "e9a0fc73-d43c-41da-891b-81731d7253c1",
+  "parentId": "938df45d-362d-4107-95df-67632df3676d",
+  "rootParentId": "938df45d-362d-4107-95df-67632df3676d",
+  "name": "books - last3 - more_info - by_name",
+  "auto": false,
+  "contexts": [
+    "books-last3-followup",
+    "books-last3-followup-2"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "author.show_info.name",
+      "affectedContexts": [
+        {
+          "name": "books-last3-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "b6c86b73-6354-4e90-b4ff-77c0ed0d3e9a",
+          "required": true,
+          "dataType": "@book",
+          "name": "book",
+          "value": "$book.original",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Say name of the book"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "I don\u0027t know about $book book."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1507496857,
+  "fallbackIntent": false,
+  "events": []
+}

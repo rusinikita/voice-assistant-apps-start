@@ -1,0 +1,52 @@
+{
+  "id": "e0241048-bf84-418e-b3b8-1581e2e8ba3d",
+  "name": "get_beer - on_taps - filter - order - agree",
+  "auto": true,
+  "contexts": [
+    "get_beer-on_taps-filter-order-followup",
+    "get_beer-on_taps-filter-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "get_beer.on_taps.filter.accept_order.yes",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "fb3d1d4d-b2de-41f1-949f-1067e5fa2e4c",
+          "required": false,
+          "name": "drink_liters",
+          "value": "#beer_info.drink_liters",
+          "isList": false
+        },
+        {
+          "id": "73bc3abf-d501-4f31-aac9-3a365fa12556",
+          "required": false,
+          "name": "drink_brand",
+          "value": "#beer_info.drink_brand",
+          "isList": false
+        },
+        {
+          "id": "8d1164d2-919c-4054-a11d-925ec0c3f4fd",
+          "name": "drink_cost",
+          "value": "#beer_info.drink_cost"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Fucking great! You ordered a selected beer. Go to the barmen, he will serve you. See you again!"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1509735523494,
+  "fallbackIntent": false,
+  "events": []
+}

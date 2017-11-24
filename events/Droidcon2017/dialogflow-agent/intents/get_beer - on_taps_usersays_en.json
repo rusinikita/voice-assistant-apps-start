@@ -1,0 +1,195 @@
+[
+  {
+    "id": "6e5769fd-8732-46f6-9c6d-78a5a29baeb9",
+    "data": [
+      {
+        "text": "Fill me ",
+        "userDefined": false
+      },
+      {
+        "text": "beer",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "64f7f422-467e-4203-9390-025b089bc043",
+    "data": [
+      {
+        "text": "Give me ",
+        "userDefined": false
+      },
+      {
+        "text": "beer",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "8f72db98-c4e7-4f07-9371-9a6adc64d273",
+    "data": [
+      {
+        "text": "I want ",
+        "userDefined": false
+      },
+      {
+        "text": "beer",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "ca9cc32e-3a9d-477c-8228-c0dc8b9b1683",
+    "data": [
+      {
+        "text": "I want order ",
+        "userDefined": false
+      },
+      {
+        "text": "beer",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "f0ad42a0-6d00-436a-9ec9-8ba577309695",
+    "data": [
+      {
+        "text": "I want to drink something",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "536615b4-1ea7-4f2f-8702-b0971f98e7f3",
+    "data": [
+      {
+        "text": "I want to get drunk",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "2dcea57b-c137-46c8-9093-45df6357b679",
+    "data": [
+      {
+        "text": "Well, can I order something?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "91cfcabc-a119-4382-b9a0-be73ba67cfcd",
+    "data": [
+      {
+        "text": "What ",
+        "userDefined": false
+      },
+      {
+        "text": "beer",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " can you fill me?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "5eba1e5c-0bab-4351-a3e9-ee14e8909ce3",
+    "data": [
+      {
+        "text": "Can I order a ",
+        "userDefined": false
+      },
+      {
+        "text": "beer",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "d822da90-2c07-4ac2-8ec4-9a9fe813df32",
+    "data": [
+      {
+        "text": "Can I have a ",
+        "userDefined": false
+      },
+      {
+        "text": "beer",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "4605f516-d86b-409a-89f0-bd12d1ff8c32",
+    "data": [
+      {
+        "text": "Tell me about beer on taps",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1509359660
+  },
+  {
+    "id": "5864a3a6-d730-4d11-aa22-bd6e560dbce2",
+    "data": [
+      {
+        "text": "What on taps?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1509357499
+  },
+  {
+    "id": "a052ba06-49c7-419f-98b5-3db41cdfc523",
+    "data": [
+      {
+        "text": "What beer do you have?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1509359660
+  }
+]

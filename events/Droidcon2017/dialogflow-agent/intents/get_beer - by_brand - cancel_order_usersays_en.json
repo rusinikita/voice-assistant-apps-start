@@ -1,0 +1,110 @@
+[
+  {
+    "id": "19e2a4a3-98ab-4b51-996c-b097fc9f9f9a",
+    "data": [
+      {
+        "text": "I don\u0027t think so",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "0eff2bbf-f9ed-46e6-8753-c10c1bf8795c",
+    "data": [
+      {
+        "text": "not really",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "01af5b69-18f8-44c9-8d2e-c5188c86ed4f",
+    "data": [
+      {
+        "text": "not interested",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "0d8817ef-d302-4493-987a-141e558d9c1f",
+    "data": [
+      {
+        "text": "I disagree",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 2,
+    "updated": 0
+  },
+  {
+    "id": "5868e8df-45e7-49e4-9fcd-190a293b0544",
+    "data": [
+      {
+        "text": "definitely not",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "2c5c9504-dfa1-4f60-b381-a46f399613c7",
+    "data": [
+      {
+        "text": "no",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "a3f10371-0d94-4f6b-8587-8417af1a74e6",
+    "data": [
+      {
+        "text": "I don\u0027t want that",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "7f879558-fe0f-4088-92e5-976df927c26f",
+    "data": [
+      {
+        "text": "thanks but no",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "8e8567cc-db0b-43f0-95eb-b240a7525720",
+    "data": [
+      {
+        "text": "don\u0027t do it",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

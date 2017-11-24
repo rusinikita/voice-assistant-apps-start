@@ -1,0 +1,40 @@
+[
+  {
+    "id": "ea765f44-eb9f-46ad-a60d-5b7557b516f2",
+    "data": [
+      {
+        "text": "Show info about ",
+        "userDefined": false
+      },
+      {
+        "text": "Elizabeth",
+        "alias": "author_name",
+        "meta": "@sys.given-name",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "Bear",
+        "alias": "author_last_name",
+        "meta": "@sys.last-name",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "author",
+        "alias": "profession",
+        "meta": "@profession",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1507583411
+  }
+]

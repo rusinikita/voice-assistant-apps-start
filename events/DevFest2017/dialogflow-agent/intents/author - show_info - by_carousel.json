@@ -1,0 +1,53 @@
+{
+  "id": "55d68d29-cc24-4485-a5cb-3f5b3755c864",
+  "name": "author - show_info - by_carousel",
+  "auto": true,
+  "contexts": [
+    "books-last3-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "author.show_info",
+      "affectedContexts": [
+        {
+          "name": "author-show_info",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "03e850ec-654b-43cb-930c-794854c0c137",
+          "name": "book",
+          "value": "#books-last3-followup.book",
+          "isList": false
+        },
+        {
+          "id": "5bd0d9c7-92fc-4b0c-8725-f6e22c6ff7bc",
+          "name": "author_name",
+          "value": "#books-last3-followup.author",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "I can\u0027t find info about author of $book book.",
+            "I don\u0027t know this book or author."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1507495399,
+  "fallbackIntent": false,
+  "events": []
+}

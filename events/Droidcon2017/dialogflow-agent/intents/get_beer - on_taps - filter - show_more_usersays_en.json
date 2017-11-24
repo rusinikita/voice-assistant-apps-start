@@ -1,0 +1,28 @@
+[
+  {
+    "id": "8b7d69da-90d2-44f1-8465-856a55a21432",
+    "data": [
+      {
+        "text": "previous",
+        "alias": "list_direction",
+        "meta": "@list-direction",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 1
+  },
+  {
+    "id": "72d36325-228c-48d3-9348-e0b16acd94bc",
+    "data": [
+      {
+        "text": "more",
+        "alias": "list_direction",
+        "meta": "@list-direction",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 1
+  }
+]

@@ -1,0 +1,90 @@
+{
+  "id": "938df45d-362d-4107-95df-67632df3676d",
+  "name": "books - last3",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "books-last3-followup",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "books-last3-followup-2",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "carousel_card",
+          "platform": "google",
+          "lang": "en",
+          "items": [
+            {
+              "optionInfo": {
+                "key": "BOOK_FIRST",
+                "synonyms": [
+                  "Machine Learning",
+                  "First"
+                ]
+              },
+              "title": "Machine Learning",
+              "description": "Hugh Howey",
+              "image": {
+                "url": "https://images-na.ssl-images-amazon.com/images/I/51QehNiywBL.jpg"
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "BOOK_SECOND",
+                "synonyms": [
+                  "Ironfoot",
+                  "Second"
+                ]
+              },
+              "title": "Ironfoot",
+              "description": "Dave Duncan",
+              "image": {
+                "url": "https://images-na.ssl-images-amazon.com/images/I/51gYg3mtVTL.jpg"
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "BOOK_THIRD",
+                "synonyms": [
+                  "The Stone in the Skull",
+                  "Third"
+                ]
+              },
+              "title": "The Stone in the Skull",
+              "description": "Elizabeth Bear",
+              "image": {
+                "url": "https://images-na.ssl-images-amazon.com/images/I/51GvZb38d%2BL.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "I can show you only last 3 books at once. First is Machine Learning by Hugh Howey; second is Ironfoot by Dave Duncan; third is The Stone in the Skull by Elizabeth Bear. Choose one."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1507497136,
+  "fallbackIntent": false,
+  "events": []
+}

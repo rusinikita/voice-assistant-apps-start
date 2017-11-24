@@ -1,0 +1,24 @@
+[
+  {
+    "id": "2d311929-3247-4240-82c4-2f5be55a9759",
+    "data": [
+      {
+        "text": "Forget my order",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "6ab4fc41-6bf7-45a1-8c42-7ed16f0dcb15",
+    "data": [
+      {
+        "text": "I cancel order",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

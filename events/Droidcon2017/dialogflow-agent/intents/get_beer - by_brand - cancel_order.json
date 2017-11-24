@@ -1,0 +1,42 @@
+{
+  "id": "06f81109-535f-4ef2-8dd7-fe8b1e42bb69",
+  "name": "get_beer - by_brand - cancel_order",
+  "auto": true,
+  "contexts": [
+    "get_beer-by_brand-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": true,
+      "action": "get_beer.by_brand.cancel_order",
+      "affectedContexts": [
+        {
+          "name": "get_beer-by_brand-followup",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Ok, tell me what a beer do you want instead."
+        },
+        {
+          "type": 0,
+          "lang": "ru",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1510425036744,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,29 @@
+{
+  "id": "9da53220-0d40-4d1e-9475-cb29097b6615",
+  "name": "app - fallback",
+  "auto": false,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.unknown",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "You can ask me to show books."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1507475125,
+  "fallbackIntent": true,
+  "events": []
+}

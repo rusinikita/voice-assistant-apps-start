@@ -1,0 +1,44 @@
+{
+  "id": "c550e1bc-d37c-4edc-8d11-7718fded4633",
+  "name": "app - welcome - google_assistant",
+  "auto": false,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [
+        {
+          "name": "app-welcome-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Hi, I\u0027m Logan, your virtual beer assistant."
+        },
+        {
+          "type": 0,
+          "lang": "ru",
+          "speech": "Привет, я Федя, твой виртуальный помощник."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1509359770,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "GOOGLE_ASSISTANT_WELCOME"
+    }
+  ]
+}

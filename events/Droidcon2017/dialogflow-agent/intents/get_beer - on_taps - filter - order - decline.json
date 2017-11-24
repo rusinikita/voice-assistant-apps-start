@@ -1,0 +1,32 @@
+{
+  "id": "a68a4aae-55f9-45cb-b2ed-e972073aef82",
+  "name": "get_beer - on_taps - filter - order - decline",
+  "auto": true,
+  "contexts": [
+    "get_beer-on_taps-filter-order-followup",
+    "get_beer-on_taps-filter-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": true,
+      "action": "get_beer.on_taps.filter.accept_order.no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "No problem, as you want. But you still can order other beer."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1509735556435,
+  "fallbackIntent": false,
+  "events": []
+}

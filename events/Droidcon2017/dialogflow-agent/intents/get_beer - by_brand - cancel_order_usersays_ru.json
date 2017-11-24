@@ -1,0 +1,110 @@
+[
+  {
+    "id": "f5b9ba04-311d-47c6-8d0f-cc4b09b06631",
+    "data": [
+      {
+        "text": "не делай этого",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "33385c8d-560d-4106-9a51-24bee0553822",
+    "data": [
+      {
+        "text": "нет",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4f0aa5f6-3d55-44ec-8687-bb6bd8141f35",
+    "data": [
+      {
+        "text": "да нет",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5a60af4d-d103-4f5e-b347-720cb4c0280b",
+    "data": [
+      {
+        "text": "не согласен",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "85e385a8-53f6-4cb8-b008-2d0dd44ba655",
+    "data": [
+      {
+        "text": "не интересует",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f90c46ef-629b-47c2-b6a7-7958c211fb0c",
+    "data": [
+      {
+        "text": "определенно нет",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "944c059a-1743-4ccb-8d98-d262fbc2ee3f",
+    "data": [
+      {
+        "text": "я не хочу этого",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "482e8308-9804-40eb-8721-3eaa2e78e9b0",
+    "data": [
+      {
+        "text": "спасибо нет",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "bf56a1c5-f3ac-4fc8-a65b-2f91d617c723",
+    "data": [
+      {
+        "text": "не думаю",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

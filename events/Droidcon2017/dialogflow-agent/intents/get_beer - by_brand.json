@@ -1,0 +1,87 @@
+{
+  "id": "059913f7-851a-4cfe-ac45-43fda3a2e904",
+  "name": "get_beer - by_brand",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "get_beer.by_brand",
+      "affectedContexts": [
+        {
+          "name": "get_beer-by_brand-followup",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "6e44d1be-6b8f-44ad-9257-6a1a123ed47c",
+          "required": true,
+          "dataType": "@beer-brand",
+          "name": "drink_brand",
+          "value": "$drink_brand",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What beer brand do you want?"
+            },
+            {
+              "lang": "en",
+              "value": "Tell me beer brand."
+            },
+            {
+              "lang": "en",
+              "value": "I should know beer brand to process order."
+            },
+            {
+              "lang": "en",
+              "value": "Without brand I will not help you."
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "dfc40e7e-f407-4d13-a020-f6dd9d0bc534",
+          "required": true,
+          "dataType": "@sys.unit-volume",
+          "name": "drink_liters",
+          "value": "$drink_liters",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "How much beer do you want?"
+            },
+            {
+              "lang": "en",
+              "value": "Specify how much $drink_brand beer we should fill you."
+            },
+            {
+              "lang": "en",
+              "value": "Tell me how much $drink_brand beer do you want."
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "You ordered $drink_liters.original of $drink_brand, let\u0027s go to barmen.",
+            "You ordered $drink_brand, but not specified litres, barmen will ask you about it."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1509432980,
+  "fallbackIntent": false,
+  "events": []
+}
