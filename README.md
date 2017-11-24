@@ -56,7 +56,7 @@ Links goes here
 
 - [Droidcon 2017 Kaliningrad](droidcon.moscow/)
 
-| Video | Presentation | [Dialogflow Agent](/events/Droidcon2017/dialogflow-agent) | [Webhook](/events/Droidcon2017/webhook) | Other materials |
+| Video | Presentation | [Dialogflow Agent](/events/Droidcon2017/dialogflow-agent) | [Webhook](/events/Droidcon2017/webhook) | [Dialogs](https://realtimeboard.com/app/board/o9J_k0XGswk=/) |
 |-------|--------------|------------|--------|----------|
 
 #### Amazon Alexa
